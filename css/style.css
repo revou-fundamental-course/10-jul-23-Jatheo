@@ -1,0 +1,83 @@
+h1{
+    color: navy;
+    background-color: navajowhite;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    white-space: nowrap;
+}
+.subtitle {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: blueviolet;
+} 
+form{
+    background-color: yellow;
+    margin: auto;
+    width: 50%;
+    border: 5px solid green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+#Age{
+    margin-left: 80px;
+    width: 200px;
+    height: 25px;
+}
+#Height{
+    margin-left: 23px;
+    width: 200px;
+    height: 25px;
+}
+#Weight{
+    margin-left: 30px;
+    width: 200px;
+    height: 25px;
+}
+#bmi-output{
+    margin-top: 10px;
+    margin-left: 45px;
+    width: 200px;
+    height: 30px;
+}
+#btn{
+    margin-top: 10px;
+    margin-left: 118px;
+    background-color: rgb(14, 170, 222);
+    width: 200px;
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type=Reset]{
+    margin-left: 20px;
+    background-color: lightgreen;
+    width: 200px;
+    height: 30px;
+}
+input[type=text]{
+    background-color: peachpuff;
+    padding-left: 5px;
+    text-align: center;
+}
+body{
+    background-color: whitesmoke;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+label{
+    text-align: left;
+}
+
+table,th, td{
+    margin: auto;
+    border: 1px solid green;
+    width: 50%;
+    background-color: lightgoldenrodyellow;
+}
+
+.output {
+    width: 50%;
+    text-align: left;
+}
