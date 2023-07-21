@@ -1,0 +1,157 @@
+<html>
+<meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>BMI CALCULATOR</title>
+</head>
+<body>
+    <h1>Kalkulator BMI</h1> 
+
+        <h2 class="Subtitle">Kalkulator untuk menghitung Index BMI tubuh</h2> <br>
+
+<h4>Berat badan ideal adalah impian semua orang. 
+    Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, 
+    berat ideal juga menandakan kondisi tubuh yang sehat. 
+    Bagaimana denganmu? Yuk, hitung sekarang di Kalkulator BMI</h4>
+
+    <!--DIV 1  DATA INPUT -->
+        <div>
+            <form action="index.html" method="post">
+    
+
+                <legend>Pilih jenis kelamin:</legend>     
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male" checked>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="female"> <br><br>
+
+                <label for="Age">Usia:</label>
+                <input type="text" name="Age" id="Age" placeholder=" Usia(Tahun)"> <br><br>
+
+                <label for="Height">Tinggi Badan:</label>
+                <input type="text" name="Height" id="Height" placeholder="Tinggi Badan (cm)"> <br><br>
+
+                <label for="Weight">Berat Badan:</label>
+                <input type="text" name="Weight" id="Weight" placeholder="Berat Badan (Kg)">
+<br>
+<br>
+                <button id="btn" type="button">Hitung</button> 
+                <input type="reset" value="Reset">
+<br>
+<br>
+                <label for="bmi-output" id="bmilabel">Hasil BMI:</label><input type="text" id="bmi-output" disabled>
+                
+        </div>
+        
+        <script src="script.js"></script>
+
+    <!--DIV 2  FEATURE PROS-->
+        <div>  
+
+            <h2>Keunggulan fitur</h2>
+            <ol>
+                <li>Menghitung berat badan</li>
+                <li>Menentukan kategori berat badan ideal atau tidak</li>
+                <li>Mempersiapkan program penurunan berat badan</li>
+            </ol>
+        </div>
+        
+<br>    <!--WARNING CAUTION-->
+        <p>Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau menyusi tidak boleh menggandalkan pembacaan BMI ini) 
+            dan tidak ada tindakan yang harus di ambil berdasarkan nilainya selain berkonsultasi dengan orang yang memenuhi syarat seperti dokter.</p>
+
+            <p>Kalkulator akan memberi Anda gambaran tentang perbandingan berat badan Anda dengan nilai umum. Indeks Massa Tubuh (atau BMI)
+                dihitung sebagai berat badan Anda (dalam kilogram) dibagi dengan kuadrat tinggi badan Anda (dalam meter) atau BMI = Kg/M<sup>2</sup></p>
+ 
+<br><br>                
+    <table>
+            <tr> 
+                <th>BMI</th>
+                <th>Status Berat Badan</th>
+            </tr>
+
+            <tr>
+                <td>Kurang dari 18.5 </td>
+                <td>Kekurangan Berat Badan</td>
+            </tr>
+
+            <tr>
+            <td>18.5 - 24.9</td>
+            <td>Normal (ideal)</td>
+            </tr>
+    
+            <tr>
+                <td>25.0 - 29.9</td>
+                <td>Kelebihan Berat Badan</td>
+            </tr>
+
+            <tr>
+                <td>30.0 atau lebih</td>
+                <td>Kegemukan (obesitas)</td>
+            </tr>
+    </table>
+
+<br>
+<br>
+<br>
+<br>
+
+    <div>
+
+        <h3>HASIL</h3>
+        <ol>
+            <!--OUTPUT 1-->
+           <li><p>Jika nilai BMI Anda kurang dari angka 18,5. Anda termasuk Berat badan kurang bukanlah kondisi yang sehat.
+
+                Kondisi ini dapat meningkatkan risiko Anda untuk mengalami beberapa masalah kesehatan, seperti sistem kekebalan tubuh lemah, 
+
+                tulang menjadi rapuh, sulit memperoleh keturunan atau infertilitas, hingga kurang gizi.
+                
+                Untuk meningkatkan berat badan agar lebih ideal, Anda perlu menyiasatinya dengan pola makan sehat yang terdiri dari makanan dengan kandungan nutrisi lengkap, 
+
+                seperti karbohidrat, protein, lemak sehat, serta aneka vitamin dan mineral.
+                
+                Anda bisa memenuhi asupan nutrisi tersebut dengan mengonsumsi nasi, buah, sayuran, ikan, telur, kacang-kacangan, dan susu.
+            </p></li>
+
+<br>
+            <!--OUTPUT 2-->
+           <li><p>Jika Nilai BMI Anda termasuk pada rentang angka yang disebut berat badan normal atau ideal. 
+
+                Namun, memiliki berat badan ideal bukan berarti Anda bebas melakukan apa pun.
+
+               Anda tetap dianjurkan untuk menjaga berat badan dan kesehatan tubuh secara keseluruhan dengan mengonsumsi makanan bernutrisi, mencukupi waktu istirahat, 
+
+               melakukan olahraga secara rutin, serta menghindari kebiasaan buruk, seperti merokok atau mengonsumsi minuman beralkohol.
+          </p></li>
+
+<br>
+            <!--OUTPUT 3-->
+            <li><p>
+                Jika Nilai BMI Anda termasuk pada rentang angka yang disebut Kelebihan Berat Badan. 
+
+               Anda dianjurkan untuk menjaga berat badan dan kesehatan tubuh secara keseluruhan dengan mengonsumsi makanan bernutrisi, mencukupi waktu istirahat, 
+
+               melakukan olahraga secara rutin, serta menghindari kebiasaan buruk, seperti merokok atau mengonsumsi minuman beralkohol</li>
+            
+
+<br>
+            <!--OUTPUT 3-->
+            <li><p>nilai BMI Anda menunjukkan angka di atas 30, berarti Anda sudah mengalami obesitas.
+
+                Obesitas adalah kondisi ketika Anda memiliki jumlah lemak yang berlebih di dalam tubuh.
+
+                Kondisi ini tidak baik untuk kesehatan karena dapat meningkatkan risiko penyakit jantung, diabetes, stroke, dan tekanan darah tinggi.
+
+                Untuk mengatasinya, Anda disarankan untuk mengurangi jumlah kalori yang masuk ke dalam tubuh dengan mengonsumsi makanan yang lebih sehat,
+
+                seperti sayuran dan buah-buahan, serta berolahraga secara rutin.
+
+                Jika perlu, Anda bisa berkonsultasi dengan dokter untuk memulai program pengurangan berat badan untuk memperoleh berat badan ideal.
+            </p></li>
+
+           </ol>    
+    </div>
+</body>
+</html>
